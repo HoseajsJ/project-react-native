@@ -6,7 +6,7 @@ export default function ProfileScreen() {
       {/* Profile Section */}
       <View style={{ alignItems: "center", marginBottom: 20 }}>
         <Image
-          source={{ uri: "https://via.placeholder.com/100" }} // Ganti dengan URL foto user
+          source={{ uri: "https://via.placeholder.com/100" }} 
           style={{ width: 100, height: 100, borderRadius: 50 }}
         />
         <Text style={{ fontSize: 22, fontWeight: "bold", marginTop: 10 }}>Lutfi Ahmad</Text>
