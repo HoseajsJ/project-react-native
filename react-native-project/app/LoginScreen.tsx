@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { View, StyleSheet, TouchableOpacity, Alert } from "react-native";
 import { TextInput, Button, Text } from "react-native-paper";
+import { router } from 'expo-router';
 
 const LoginScreen = ({ navigation }: any) => {
   const [email, setEmail] = useState("");
@@ -74,7 +75,7 @@ const LoginScreen = ({ navigation }: any) => {
 
       <Button
         mode="text"
-        onPress={() => navigation.navigate("Signup")}
+        onPress={() => router.push('/SingupScreen')}
         style={styles.signupButton}
       >
         Don't have an account? Sign Up
